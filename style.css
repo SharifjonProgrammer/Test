@@ -1,0 +1,361 @@
+/* Asosiy qismi */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+
+}
+
+h1 {
+    margin: 0px;
+}
+
+/* Header */
+
+header {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.527), green);
+    height: 85px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width:5000px;
+
+}
+
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.yozuv {
+    margin-left: 100px;
+}
+
+a:hover {
+    color: green;
+}
+
+nav {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 600px;
+}
+
+/* 1-bo'lim */
+
+.bolim1 {
+    background: linear-gradient(to left, rgba(0, 128, 0, 0.756), rgba(0, 0, 0, 0.756));
+}
+
+.asos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+    background-clip: text;
+
+
+}
+
+
+
+.yozuv1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    background-image: linear-gradient(to left, rgb(1, 111, 1), rgb(1, 1, 1));
+    color: transparent;
+    background-clip: text;
+}
+
+.a1 {
+    display: flex;
+    background-image: linear-gradient(to right, black, green);
+    width: 200px;
+    height: 200px;
+    animation: Sharifjon 10s infinite linear;
+}
+
+@keyframes Sharifjon {
+    0% {
+        border-radius: 640px 506px;
+        transform: translateY(0px);
+    }
+
+    50% {
+        border-radius: 640px 506px;
+        transform: translateY(40px);
+    }
+
+    100% {
+        border-radius: 640px 506px;
+        transform: translateY(70px, 0px);
+    }
+}
+
+.b1 {
+    display: flex;
+    background-image: linear-gradient(to right, black, green);
+    width: 200px;
+    height: 200px;
+    animation: Sharifjon 20s infinite linear;
+    margin-left: 1200px;
+
+}
+
+@keyframes Sharifjon {
+    0% {
+        border-radius: 640px 506px;
+        transform: translateY(0px);
+    }
+
+    50% {
+        border-radius: 640px 506px;
+        transform: translateY(40px);
+    }
+
+    100% {
+        border-radius: 640px 506px;
+        transform: translateY(70px, 0px);
+    }
+}
+
+.yozuv2 {
+    margin-left: 423px;
+    font-size: 25px;
+
+}
+
+.a12 {
+    margin: auto;
+    margin-left: 600px;
+    height: 50px;
+    width: 190px;
+    border: 0px;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.600), rgba(0, 128, 0, 0.600));
+    color: rgba(121, 215, 121, 0.621);
+    transition: 0.5s;
+}
+
+.a13 {
+    margin: auto;
+    height: 50px;
+    width: 190px;
+    border: 0px;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.600), rgba(0, 128, 0, 0.600));
+    color: rgba(121, 215, 121, 0.621);
+    transition: 0.5s;
+
+}
+
+.a12:hover {
+    transform: translateY(-10px);
+    background: linear-gradient(to right, black, green);
+}
+
+.a13:hover {
+    transform: translateY(-6px);
+    background: linear-gradient(to right, black, green);
+}
+
+/* 2-bo'lim */
+.sarlavha {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.600), rgba(0, 128, 0, 0.600));
+}
+
+.bolim2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.600), rgba(0, 128, 0, 0.600));
+    gap: 20px;
+    border: 100px green;
+    
+}
+
+.container {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.39), rgba(0, 128, 0, 0.39));
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+    
+}
+
+.container:hover {
+    transform: translateY(-10px);
+}
+
+.tr {
+    height: 70px;
+    width: 70px;
+    background-color: green;
+    border-radius: 100% 100% 100% 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.yozuv3 {
+    font-size: 25px;
+    width: 400px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.yozuv4 {
+    margin-top: 30px;
+}
+
+/* 3-bo'lim */
+
+.bolim3 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.600), rgba(0, 128, 0, 0.600));
+    text-align: center;
+    height: 600px;
+}
+
+.sarlavha2 {
+    font-size: 70px;
+}
+
+.izoh {
+    height: 300px;
+    width: 900px;
+    box-shadow: 0px 0px 10px;
+    font-size: 25px;
+    margin-left: 350px;
+    color: green;
+}
+
+
+
+.yozuv6 {
+    margin-top: 50px;
+}
+
+/* 4-bo'lim */
+
+.bolim4 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.600), rgba(0, 128, 0, 0.600));
+    height: 600px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.sarlavha3{
+    font-size: 50px;
+}
+
+.p{
+    font-size: 30px;
+    width: 500px;
+    margin-left: 550px;
+}
+
+.a14{
+    
+    margin: auto;
+    
+    height: 50px;
+    width: 190px;
+    border: 0px;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.600), rgba(0, 128, 0, 0.600));
+    color: rgba(121, 215, 121, 0.621);
+    transition: 0.5s;
+}
+
+.a14:hover {
+    transform: translateY(-10px);
+    background: linear-gradient(to right, black, green);
+}
+
+/* footer */
+
+.submit-btn:hover {
+    
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    background: linear-gradient(to right, black, green);
+    color: white;
+    padding: 40px 0 20px;
+    margin-top: 50px;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-section h3 {
+    background: linear-gradient(to right, black, green);
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .footer-section p,
+  .footer-section li {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: cornflowerblue;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #34495e;
+    color: #bdc3c7;
+    font-size: 14px;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
