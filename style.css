@@ -19,7 +19,7 @@ header {
     display: flex;
     align-items: center;
     position: fixed;
-    width:5000px;
+    width: 5000px;
 
 }
 
@@ -185,7 +185,7 @@ nav {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.600), rgba(0, 128, 0, 0.600));
     gap: 20px;
     border: 100px green;
-    
+
 }
 
 .container {
@@ -196,7 +196,7 @@ nav {
     width: 500px;
     height: 400px;
     margin-top: 100px;
-    
+
 }
 
 .container:hover {
@@ -261,23 +261,23 @@ nav {
     height: 600px;
     text-align: center;
     margin: auto;
-    
+
 }
 
-.sarlavha3{
+.sarlavha3 {
     font-size: 50px;
 }
 
-.p{
+.p {
     font-size: 30px;
     width: 500px;
     margin-left: 550px;
 }
 
-.a14{
-    
+.a14 {
+
     margin: auto;
-    
+
     height: 50px;
     width: 190px;
     border: 0px;
@@ -295,7 +295,7 @@ nav {
 /* footer */
 
 .submit-btn:hover {
-    
+
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -305,57 +305,63 @@ nav {
     color: white;
     padding: 40px 0 20px;
     margin-top: 50px;
-  }
-  
-  .footer-content {
+}
+
+.footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-  }
-  
-  .footer-section h3 {
+}
+
+.footer-section h3 {
     background: linear-gradient(to right, black, green);
     margin-bottom: 15px;
     font-size: 18px;
-  }
-  
-  .footer-section p,
-  .footer-section li {
+}
+
+.footer-section p,
+.footer-section li {
     font-size: 14px;
     line-height: 1.6;
-  }
-  
-  .footer-section ul {
+}
+
+.footer-section ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .footer-section ul li {
+}
+
+.footer-section ul li {
     margin-bottom: 8px;
-  }
-  
-  .footer-section ul li a {
+}
+
+.footer-section ul li a {
     color: #ddd;
     text-decoration: none;
     transition: color 0.3s;
-  }
-  
-  .footer-section ul li a:hover {
+}
+
+.footer-section ul li a:hover {
     color: cornflowerblue;
-  }
-  
-  .footer-bottom {
+}
+
+.footer-bottom {
     text-align: center;
     margin-top: 30px;
     padding-top: 20px;
     border-top: 1px solid #34495e;
     color: #bdc3c7;
     font-size: 14px;
-  }
+}
 
-  html{
+html {
     scroll-behavior: smooth;
-  }
+}
+
+@media screen and (max-width:1024px) {
+    header{
+    width:1024px;
+ }
+}
